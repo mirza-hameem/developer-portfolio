@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary-color{
+    color: #FD6E0A;
+}
