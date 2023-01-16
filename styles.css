@@ -18,6 +18,14 @@
     padding: 18px 35px;
 }
 
+.header{
+    background-image: url('images/header_bg.png'), url('images/developer.png') ;
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,4 +45,31 @@ nav ul{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
