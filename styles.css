@@ -4,6 +4,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.text-primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -17,13 +31,10 @@ ul li {
 
 nav ul{
     display: flex;
+    align-items: center;
 }
 
 .nav-title{
     font-weight: 800;
     font-size: 45px;
-}
-
-.text-primary-color{
-    color: #FD6E0A;
 }
